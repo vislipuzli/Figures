@@ -11,6 +11,11 @@ public class Main {
 
         Circle circle = new Circle();
         circle.printArea(triangle);
+
+        Shape oval = new Oval();
+        oval.setSizes();
+        oval.printaArea();
+        oval.printPerimeter();
     }
 }
 
